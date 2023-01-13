@@ -19,18 +19,17 @@ const hero = () => {
         Hi, I'm Philip 👋
       </h1>
       <p className="text-lg text-[#737373]">
-        I'm a <span className="text-[#10b981]">Software Engineering</span>{" "}
-        student somewhere in England and a software developer. I enjoy{" "}
-        <span className="text-[#10b981]">building</span> things that run on
-        computers (for fun and/or to use) and exploring a lot (or a bit) of
-        other tools, languages etc while doing that.
+        I'm a <span className="text-[#10b981]">Front-End Developer</span> in
+        Nigeria. I enjoy <span className="text-[#10b981]">building</span> things
+        that run on computers (for fun and/or to use) and exploring a lot (or a
+        bit) of other tools, languages etc while doing that.
         <br />
       </p>
 
       <section className="mt-8">
         <h2 className="text-2xl font-bold my-4">Recent Playlist</h2>
         <Spotify
-          className="md:w-8/12"
+          className="w-full"
           link="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
         />
       </section>
