@@ -1,15 +1,16 @@
 import Tools from "./tools";
 import Projects from "./projects";
+import Contact from "./contact";
 import Img from "../assets/react.svg";
 import { GoLocation } from "react-icons/go";
 import Spotify from "react-spotify-embed";
-const hero = () => {
+const main = () => {
   return (
     <main className="mx-auto mt-16 max-w-[65rem] px-6">
       <img
         className="w-20 lg:w-24 aspect-square object-cover rounded-lg"
         src={Img}
-        alt=""
+        alt="Philip's Avatar"
       />
       <p className="text-xs text-neutral-600 mt-3 flex">
         <GoLocation className="text-emerald-500 mr-1" />
@@ -36,8 +37,9 @@ const hero = () => {
 
       <Tools />
       <Projects />
+      <Contact />
     </main>
   );
 };
 
-export default hero;
+export default main;

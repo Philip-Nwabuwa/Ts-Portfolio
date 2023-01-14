@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar";
-import Hero from "./components/hero";
+import Main from "./components/main";
 import Footer from "./components/footer";
 import "./index.css";
 
@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="">
       <Navbar />
-      <Hero />
+      <Main />
       <Footer />
     </div>
   );

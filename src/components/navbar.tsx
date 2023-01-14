@@ -19,13 +19,7 @@ const navbar = () => {
       >
         <AiFillGithub className="hover:scale-125 transition-all" />
       </a>
-      <a
-        href="mailto:philipnwabuwa@gmail.com"
-        target="_blank"
-        className="text-3xl font-medium"
-      >
-        <MdEmail className="hover:scale-125 transition-all" />
-      </a>
+
       <a
         href="#"
         target="_blank"
