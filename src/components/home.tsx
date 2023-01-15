@@ -31,7 +31,7 @@ const main = () => {
         <h2 className="text-2xl font-bold my-4">Recent Playlist</h2>
         <Spotify
           className="w-full"
-          link="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
+          link="https://open.spotify.com/playlist/0tlvJ6X2wEPpLD8zNqpk8t?si=CZvWKVjlRa-T1JgSAl3OUw"
         />
       </section>
 
@@ -39,6 +39,7 @@ const main = () => {
       <Projects />
       <Contact />
     </main>
+    // "https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
   );
 };
 
