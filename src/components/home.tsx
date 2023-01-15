@@ -1,7 +1,7 @@
 import Tools from "./tools";
 import Projects from "./projects";
 import Contact from "./contact";
-import Img from "../assets/react.svg";
+import Img from "../assets/me.jpg";
 import { GoLocation } from "react-icons/go";
 import Spotify from "react-spotify-embed";
 const main = () => {
@@ -16,7 +16,7 @@ const main = () => {
         <GoLocation className="text-emerald-500 mr-1" />
         Nigeria, Asaba
       </p>
-      <h1 className="text-3xl lg:text-3xl font-bold my-4 font-HachiMaruPop ">
+      <h1 className="text-3xl lg:text-3xl font-bold my-4 font-Dancing ">
         Hi, I'm Philip 👋
       </h1>
       <p className="text-lg text-[#737373]">

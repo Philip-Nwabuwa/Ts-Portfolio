@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
-        HachiMaruPop: ["Hachi Maru Pop", "cursive"],
+        Dancing: ["Dancing Script", "cursive"],
       }, //end of fontFamily
       colors: {
         primary: {

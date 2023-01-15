@@ -1,28 +1,30 @@
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import "./btn.css";
+import { useRef, useState } from "react";
+import emailjs, { sendForm } from "@emailjs/browser";
+import Popup from "./popup";
+import "../css/subIndex.css";
 import { FiSend } from "react-icons/fi";
 
 const contact = () => {
+  const [loading, setLoading] = useState(false);
   const form = useRef<HTMLFormElement>(null as any);
   const sendEmail = (e: { preventDefault: () => void }) => {
     e.preventDefault(); // prevents the page from reloading when you hit “Send”
 
-    emailjs;
-    // .sendForm(
-    //   "service_5cxatze",
-    //   "template_sihwcap",
-    //   form.current,
-    //   "1AFwh0OVvrer66bO0"
-    // )
-    // .then(
-    //   (result: { text: any }) => {
-    //     console.log(result);
-    //   },
-    //   (error: { text: any }) => {
-    //     console.log(error.text);
-    //   }
-    // );
+    emailjs
+      .sendForm(
+        "service_5cxatze",
+        "template_sihwcap",
+        form.current,
+        "1AFwh0OVvrer66bO0"
+      )
+      .then(
+        (result: { text: any }) => {
+          setLoading(true);
+        },
+        (error: { text: any }) => {
+          console.log(error.text);
+        }
+      );
 
     form.current.reset();
   };
@@ -83,12 +85,7 @@ const contact = () => {
 
         <div className="flex justify-center">
           <div className="button">
-            <button
-              type="submit"
-              value="Send"
-              onClick={() => alert("Button clicked!")}
-              className="px-10 py-4"
-            >
+            <button type="submit" value="Send" className="px-10 py-4">
               Send{" "}
               <FiSend
                 width={30}
@@ -98,6 +95,16 @@ const contact = () => {
             </button>
           </div>
         </div>
+        <Popup trigger={loading} setTrigger={setLoading}>
+          <div className="flex flex-col items-center justify-center">
+            <h2 className="text-2xl font-bold text-center text-white">
+              Message Sent!
+            </h2>
+            <p className="text-center text-gray-400">
+              I'll get back to you as soon as possible.
+            </p>
+          </div>
+        </Popup>
       </form>
     </div>
   );
