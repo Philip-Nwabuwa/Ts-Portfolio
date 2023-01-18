@@ -27,13 +27,13 @@ const main = () => {
         <br />
       </p>
 
-      <section className="mt-8">
+      {/* <section className="mt-8">
         <h2 className="text-2xl font-bold my-4">Recent Playlist</h2>
         <Spotify
           className="w-full"
           link="https://open.spotify.com/playlist/0tlvJ6X2wEPpLD8zNqpk8t?si=CZvWKVjlRa-T1JgSAl3OUw"
         />
-      </section>
+      </section> */}
 
       <Tools />
       <Projects />

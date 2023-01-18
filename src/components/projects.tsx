@@ -21,9 +21,8 @@ const projects = () => {
           </div>
           <h3>Github Clone 2.1</h3>
           <p className="text-sm text-[#737373]">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-            quod quidem odio, aliquam tempora voluptatibus ipsam quis illo
-            repellat numquam.
+            A GitHub clone built with React, Tailwind CSS, and Firebase. It
+            allows you to search for users and view their profiles.
           </p>
           <div className="flex items-center justify-between mt-auto">
             <div className="w-max bg-neutral-900 text-neutral-500 text-[10px] font-medium px-2.5 py-1 rounded drop-shadow-md">
@@ -49,9 +48,9 @@ const projects = () => {
           </div>
           <h3>Random User Generator</h3>
           <p className="text-sm text-[#737373]">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-            quod quidem odio, aliquam tempora voluptatibus ipsam quis illo
-            repellat numquam.
+            A random user generator built with React, Tailwind CSS, and
+            Firebase. It allows you to generate random users and view their
+            profiles.
           </p>
           <div className="flex items-center justify-between mt-auto">
             <div className="w-max bg-neutral-900 text-neutral-500 text-[10px] font-medium px-2.5 py-1 rounded drop-shadow-md">
@@ -77,9 +76,8 @@ const projects = () => {
           </div>
           <h3>Calculator App</h3>
           <p className="text-sm text-[#737373]">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-            quod quidem odio, aliquam tempora voluptatibus ipsam quis illo
-            repellat numquam.
+            A calculator app built with React, Tailwind CSS, and Replit. It
+            allows you to perform basic arithmetic operations.
           </p>
           <div className="flex items-center justify-between mt-auto">
             <div className="w-max bg-neutral-900 text-neutral-500 text-[10px] font-medium px-2.5 py-1 rounded drop-shadow-md">
