@@ -3,7 +3,8 @@ import Projects from "./projects";
 import Contact from "./contact";
 import Img from "../assets/me.jpg";
 import { GoLocation } from "react-icons/go";
-import Spotify from "react-spotify-embed";
+import { HiOutlineDocumentDownload } from "react-icons/hi";
+// import Spotify from "react-spotify-embed";
 const main = () => {
   return (
     <main className="mx-auto mt-16 max-w-[65rem] px-6">
@@ -27,6 +28,18 @@ const main = () => {
         <br />
       </p>
 
+      <section className="mt-8 flex justify-center items-center">
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1wH7xr_k_ehB1B8iowKkB6PCZyuX8KMh8/view?usp=drivesdk"
+        >
+          <div className="flex items-center px-10 py-4 rounded-r-3xl rounded-l-3xl border-solid border-white border-[3px] hover:bg-white hover:text-black">
+            <p className="font-bold">My Resume</p>
+            <HiOutlineDocumentDownload className="ml-2 text-3xl" />
+          </div>
+        </a>
+      </section>
+
       {/* <section className="mt-8">
         <h2 className="text-2xl font-bold my-4">Recent Playlist</h2>
         <Spotify
@@ -39,7 +52,6 @@ const main = () => {
       <Projects />
       <Contact />
     </main>
-    // "https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
   );
 };
 

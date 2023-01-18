@@ -5,7 +5,7 @@ const navbar = () => {
   return (
     <nav className="w-screen fixed top-0 left-0 bg-black bg-opacity-70 backdrop-blur-lg border-b border-b-neutral-900 flex items-center justify-center gap-5 py-2 px-4 z-[99999]">
       <a
-        href="#"
+        href="https://twitter.com/Philip_john64"
         target="_blank"
         className="text-3xl font-medium hover:text-[#1DA1F2] "
       >
@@ -20,7 +20,7 @@ const navbar = () => {
       </a>
 
       <a
-        href="#"
+        href="https://www.linkedin.com/in/philip-nwabuwa-5137a2200/"
         target="_blank"
         className="text-3xl font-medium hover:text-[#0e76a8] "
       >
