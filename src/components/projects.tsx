@@ -1,6 +1,6 @@
 import IMG from "../assets/Github-clone.png";
 import IMG2 from "../assets/random-user-24.png";
-import IMG3 from "../assets/calculator-app.png";
+import IMG3 from "../assets/OpenAI.png";
 const projects = () => {
   return (
     <section className="mt-8">
@@ -74,17 +74,19 @@ const projects = () => {
               alt=""
             />
           </div>
-          <h3>Calculator App</h3>
+          <h3>Chat GPT Clone</h3>
           <p className="text-sm text-[#737373]">
-            A calculator app built with React, Tailwind CSS, and Replit. It
-            allows you to perform basic arithmetic operations.
+            My chat GPT clone is a chatbot that uses natural language processing
+            to simulate human conversation. It can be used to provide automated
+            customer service, answer questions, and provide personalized
+            recommendations.
           </p>
           <div className="flex items-center justify-between mt-auto">
             <div className="w-max bg-neutral-900 text-neutral-500 text-[10px] font-medium px-2.5 py-1 rounded drop-shadow-md">
               prodution
             </div>
             <a
-              href="https://calculator-app.philipnwabuwa.repl.co"
+              href="https://open-ai-clone-philip-nwabuwa.vercel.app/"
               target="_blank"
               className="block w-max text-xs font-medium"
             >
