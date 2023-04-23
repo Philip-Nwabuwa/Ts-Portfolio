@@ -1,6 +1,7 @@
 import IMG from "../assets/Github-clone.png";
 import IMG2 from "../assets/random-user-24.png";
 import IMG3 from "../assets/OpenAI.png";
+import IMG4 from "../assets/dev-chat-24.png";
 const projects = () => {
   return (
     <section className="mt-8">
@@ -92,6 +93,43 @@ const projects = () => {
             >
               Visit Website
             </a>
+          </div>
+        </div>
+
+
+{/* Dev Chat */}
+        <div className="flex flex-col gap-2">
+          <div className="relative w-full border border-neutral-900 aspect-[1.6] overflow-hidden rounded-lg cursor-pointer">
+            <img
+              src={IMG4}
+              className="w-full h-full hover:scale-125 object-cover object-left transition-all"
+              alt=""
+            />
+          </div>
+          <h3>Dev Chat</h3>
+          <p className="text-sm text-[#737373]">
+            A chat app built for developers, built with Next.js, TailwindCSS,
+            Redis for the database, and Next-auth for authentication.
+          </p>
+          <div className="flex items-center justify-between mt-auto">
+            <div className="w-max bg-neutral-900 text-neutral-500 text-[10px] font-medium px-2.5 py-1 rounded drop-shadow-md">
+              prodution
+            </div>
+            <div className="block w-max text-xs font-medium">
+              <a
+                href="https://github.com/Philip-Nwabuwa/DEV-Chat"
+                target="_blank"
+              >
+                View Code
+              </a>
+              <a
+                href="https://dev-chat-24.vercel.app"
+                target="_blank"
+                className="pl-2"
+              >
+                Visit Website
+              </a>
+            </div>
           </div>
         </div>
       </div>

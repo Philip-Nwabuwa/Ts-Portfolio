@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev-git": "vite --host",
     "build": "tsc && vite build && firebase deploy",
     "preview": "vite preview"
   },
