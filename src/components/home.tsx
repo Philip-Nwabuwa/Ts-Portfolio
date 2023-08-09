@@ -31,7 +31,7 @@ const main = () => {
       <section className="mt-8 flex justify-center items-center">
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1wH7xr_k_ehB1B8iowKkB6PCZyuX8KMh8/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1llzmwlB1BURspcaSGzheHIYxJUZJEgbR/view?usp=drive_link"
         >
           <div className="flex items-center px-10 py-4 rounded-r-3xl rounded-l-3xl border-solid border-white border-[3px] hover:bg-white hover:text-black">
             <p className="font-bold">My Resume</p>
